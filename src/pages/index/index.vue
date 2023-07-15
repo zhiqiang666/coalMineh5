@@ -27,14 +27,14 @@
       <view style="width: 50%; margin-left: 6rpx; height: 100%">
         <view
           class="search"
-          style="height: calc(50% - 6rpx)"
+          style="height: 50%"
           @click="pageTo('/pages/search/index')"
         >
           <text class="search-label">查询</text></view
         >
         <view
           class="login"
-          style="height: calc(50% - 6rpx)"
+          style="height: 50%"
           @click="pageTo('/pages/login/index')"
         >
           <text class="search-label">登陆</text>
