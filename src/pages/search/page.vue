@@ -161,6 +161,7 @@ export default {
   .verification-item-name {
     width: 118rpx;
     text-align: left;
+    font-weight: 600;
   }
 }
 .verification-info-title {

@@ -25,20 +25,24 @@
         <text class="info-label">信息登记</text>
       </view>
       <view style="width: 50%; margin-left: 6rpx; height: 100%">
-        <view
-          class="search"
-          style="height: 50%"
-          @click="pageTo('/pages/search/index')"
-        >
-          <text class="search-label">查询</text></view
-        >
-        <view
-          class="login"
-          style="height: 50%"
-          @click="pageTo('/pages/login/index')"
-        >
-          <text class="search-label">登陆</text>
-        </view>
+        <div style="padding-bottom: 6rpx; box-sizing: border-box; height: 50%">
+          <view
+            class="search"
+            style="height: 100%"
+            @click="pageTo('/pages/search/index')"
+          >
+            <text class="search-label">查询</text></view
+          >
+        </div>
+        <div style="padding-top: 6rpx; box-sizing: border-box; height: 50%">
+          <view
+            class="login"
+            style="height: 100%"
+            @click="pageTo('/pages/login/index')"
+          >
+            <text class="search-label">登陆</text>
+          </view>
+        </div>
       </view>
     </view>
     <view class="tip-container">
@@ -94,9 +98,10 @@ export default {
   background: url("@/static/img/首页/信息登记.png") no-repeat;
   background-size: 100% 100%;
   padding-bottom: 12rpx;
+  box-sizing: border-box;
 }
 .login {
-  margin-top: 12rpx;
+  // margin-top: 12rpx;
   background: url("@/static/img/首页/登录.png") no-repeat;
   background-size: 100% 100%;
 }

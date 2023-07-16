@@ -130,6 +130,7 @@ export default {
   }
   .verification-name {
     font-size: 34rpx;
+    font-weight: 600;
   }
   .verification-info-container {
     align-items: flex-end;

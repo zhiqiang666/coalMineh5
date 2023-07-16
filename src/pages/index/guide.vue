@@ -1,8 +1,9 @@
 <template>
   <div class="content">
+    <img src="@/static/img/注意事项/头图.png" class="upload-title-photo" alt="" />
     <div class="container">
-      <div class="warning-title">注意事项</div>
-      <div class="warning-read">填写前请仔细阅读注意事项</div>
+      <!-- <div class="warning-title">注意事项</div>
+      <div class="warning-read">填写前请仔细阅读注意事项</div> -->
       <div class="process-container"></div>
       <div class="warning-info">
         <div class="warning-info-title">注意事项</div>
@@ -36,15 +37,16 @@ export default {
 </script>
 
 <style scoped lang="less">
-.content {
-  background: url("@/static/img/注意事项/头图.png") no-repeat;
-  background-size: 100%;
-}
+// .content {
+//   background: url("@/static/img/注意事项/头图.png") no-repeat;
+//   background-size: 100%;
+// }
 .container {
   width: 88%;
   height: 100%;
   margin: 0 auto;
   text-align: left;
+  position: relative;
   .warning-title {
     color: white;
     font-size: 60rpx;
@@ -62,7 +64,7 @@ export default {
     margin-top: 26rpx;
   }
   .process-container {
-    margin-top: 80rpx;
+    margin-top: -80rpx;
     width: 100%;
     height: 170rpx;
     background: url("@/static/img/注意事项/流程1.png") no-repeat;
@@ -97,5 +99,9 @@ export default {
     margin: 30rpx 0;
     color: #000000;
   }
+}
+.upload-title-photo {
+  height: 400rpx;
+  margin-top: -30rpx;
 }
 </style>
