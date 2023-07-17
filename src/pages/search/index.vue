@@ -47,7 +47,7 @@ export default {
 
 <style scoped lang="less">
 .content {
-  background: url("@/static/img/denglu/背景.png") no-repeat;
+  background: url("@/static/img/denglu/bj.png") no-repeat;
   background-size: 100% 100%;
   .logo {
     width: 170rpx;

@@ -1,6 +1,6 @@
 <template>
   <div class="content">
-    <img src="@/static/img/zhengjianzhao/头图.png" class="upload-title-photo" alt="" />
+    <img src="@/static/img/zhengjianzhao/tt.png" class="upload-title-photo" alt="" />
     <div class="container">
       <div class="container-padding">
         <div class="login-info-title flex flexBetween">
@@ -9,7 +9,7 @@
             <span class="title">基础信息</span>
           </div>
           <div class="flex login-info-next">
-            <img src="@/static/img/shenfenzheng/下一项.png" alt="" />
+            <img src="@/static/img/shenfenzheng/xyx.png" alt="" />
             <span>下一项 身份证信息</span>
           </div>
         </div>
@@ -34,7 +34,7 @@
             <img
               v-if="!fileUrl"
               class="photo-no-img"
-              src="@/static/img/shenfenzheng/头像.png"
+              src="@/static/img/shenfenzheng/tx.png"
               alt=""
             />
             <img v-else class="photo-img" :src="fileUrl" alt="" />
@@ -43,19 +43,19 @@
         <div class="picture-title">拍摄标准</div>
         <div class="picture-list flex flexAround">
           <div class="picture-item">
-            <img src="@/static/img/zhengjianzhao/标准.png" alt="" />
+            <img src="@/static/img/zhengjianzhao/bz.png" alt="" />
             <div>标准拍摄</div>
           </div>
           <div class="picture-item">
-            <img src="@/static/img/zhengjianzhao/拍摄不全.png" alt="" />
+            <img src="@/static/img/zhengjianzhao/psbq.png" alt="" />
             <div>拍摄不全</div>
           </div>
           <div class="picture-item">
-            <img src="@/static/img/zhengjianzhao/拍摄模糊.png" alt="" />
+            <img src="@/static/img/zhengjianzhao/psmh.png" alt="" />
             <div>拍摄模糊</div>
           </div>
           <div class="picture-item">
-            <img src="@/static/img/zhengjianzhao/拍摄曝光.png" alt="" />
+            <img src="@/static/img/zhengjianzhao/psbg.png" alt="" />
             <div>拍摄曝光</div>
           </div>
         </div>
@@ -111,6 +111,6 @@ export default {
 <style scoped lang="less">
 @import "@/static/style/loginCommon.less";
 .title-info {
-  background: url("@/static/img/shenfenzheng/样式1.png") no-repeat;
+  background: url("@/static/img/shenfenzheng/ys1.png") no-repeat;
 }
 </style>

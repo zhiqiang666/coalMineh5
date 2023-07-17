@@ -36,12 +36,12 @@
         <div class="verification-photo">
           <img
             @click="$refs.image.open()"
-            src="@/static/img/heyan/证件.png"
+            src="@/static/img/heyan/zj.png"
             alt=""
           />
         </div>
         <div class="verification-photo" v-if="state == 'done'">
-          <img src="@/static/img/heyan/核验成功.png" alt="" />
+          <img src="@/static/img/heyan/hycg.png" alt="" />
         </div>
       </div>
       <div class="next-btn" @click="verify">
@@ -52,7 +52,7 @@
       <img
         @click="$refs.image.close()"
         style="width: 90%; margin-left: 5%"
-        src="@/static/img/heyan/证件.png"
+        src="@/static/img/heyan/zj.png"
         alt=""
       />
     </uni-popup>
@@ -119,7 +119,7 @@ export default {
 }
 .verification-info {
   height: 280rpx;
-  background: url("@/static/img/heyan/背景.png") no-repeat;
+  background: url("@/static/img/heyan/bj.png") no-repeat;
   background-size: 100% 100%;
   font-size: 24rpx;
   img {
@@ -164,7 +164,7 @@ export default {
   width: 280rpx;
   height: 524rpx;
   margin: 50rpx auto 0;
-  background: url("@/static/img/heyan/圆角.png") no-repeat;
+  background: url("@/static/img/heyan/yj.png") no-repeat;
   background-size: 100% 100%;
   display: flex;
   align-items: center;
@@ -177,7 +177,7 @@ export default {
 .popup-container {
   width: 400rpx;
   height: 310rpx;
-  background: url("@/static/img/heyan/通过.png") no-repeat;
+  background: url("@/static/img/heyan/tg.png") no-repeat;
   background-size: 100% 100%;
   .label {
     color: #24c065;

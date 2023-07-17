@@ -1,6 +1,6 @@
 <template>
   <div class="content">
-    <img src="@/static/img/jiashizheng/背景.png" class="upload-title-photo" alt="" />
+    <img src="@/static/img/jiashizheng/bj.png" class="upload-title-photo" alt="" />
     <div class="container">
       <div class="container-padding">
         <div class="login-info-title flex flexBetween">
@@ -9,7 +9,7 @@
             <span class="title">驾驶证信息</span>
           </div>
           <div class="flex login-info-next">
-            <img src="@/static/img/shenfenzheng/下一项.png" alt="" />
+            <img src="@/static/img/shenfenzheng/xyx.png" alt="" />
             <span>下一项 驾驶证信息</span>
           </div>
         </div>
@@ -22,7 +22,7 @@
             <img
               v-if="!fileUrl"
               class="photo-no-img"
-              src="@/static/img/jiashizheng/用户.png"
+              src="@/static/img/jiashizheng/yh.png"
               style="width: 250rpx; height: 150rpx"
               alt=""
             />
@@ -32,24 +32,24 @@
         <div class="picture-title">拍摄标准</div>
         <div class="picture-list flex flexAround">
           <div class="picture-item">
-            <img src="@/static/img/shenfenzheng/拍摄标准.png" alt="" />
+            <img src="@/static/img/shenfenzheng/psbz.png" alt="" />
             <div>标准拍摄</div>
           </div>
           <div class="picture-item">
-            <img src="@/static/img/shenfenzheng/拍摄不全.png" alt="" />
+            <img src="@/static/img/shenfenzheng/psbq.png" alt="" />
             <div>拍摄不全</div>
           </div>
           <div class="picture-item">
-            <img src="@/static/img/shenfenzheng/拍摄模糊.png" alt="" />
+            <img src="@/static/img/shenfenzheng/psmh.png" alt="" />
             <div>拍摄模糊</div>
           </div>
           <div class="picture-item">
-            <img src="@/static/img/shenfenzheng/拍摄曝光.png" alt="" />
+            <img src="@/static/img/shenfenzheng/psbg.png" alt="" />
             <div>拍摄曝光</div>
           </div>
         </div>
         <div class="confirm-info-title flex">
-          <img src="@/static/img/shenfenzheng/样式.png" alt="" />
+          <img src="@/static/img/shenfenzheng/ys.png" alt="" />
           <span>请确认身份信息</span>
         </div>
         <div class="info-container">
@@ -147,7 +147,7 @@ export default {
 <style scoped lang="less">
 @import "@/static/style/loginCommon.less";
 .title-info {
-  background: url("@/static/img/shenfenzheng/样式1.png") no-repeat;
+  background: url("@/static/img/shenfenzheng/ys1.png") no-repeat;
 }
 .picture-item {
   img {
@@ -158,7 +158,7 @@ export default {
 .info-container {
   //   height: 240rpx;
   width: 100%;
-  background: url("@/static/img/shenfenzheng/信息背景.png") no-repeat;
+  background: url("@/static/img/shenfenzheng/xxbj.png") no-repeat;
   background-size: 100% 100%;
   padding-bottom: 30rpx;
 }

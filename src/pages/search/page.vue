@@ -74,9 +74,9 @@ export default {
       resultState: "normal", //success 是通过 error是失败 normal未审核
       imgUrl: "https://img01.yzcdn.cn/vant/cat.jpeg",
       photoMap: {
-        userPhoto: "/static/img/shenhejieguo/证件照.png",
-        idPhoto: "/static/img/shenhejieguo/身份证.png",
-        driverPhoto: "/static/img/shenhejieguo/驾驶证.png",
+        userPhoto: "/static/img/shenhejieguo/zjz.png",
+        idPhoto: "/static/img/shenhejieguo/sfz.png",
+        driverPhoto: "/static/img/shenhejieguo/jsz.png",
         userError: true,
         idError: false,
         driverError: true
@@ -187,7 +187,7 @@ export default {
   width: 280rpx;
   height: 524rpx;
   margin: 50rpx auto 0;
-  background: url("@/static/img/heyan/圆角.png") no-repeat;
+  background: url("@/static/img/heyan/yj.png") no-repeat;
   background-size: 100% 100%;
   display: flex;
   align-items: center;
@@ -200,7 +200,7 @@ export default {
 .popup-container {
   width: 400rpx;
   height: 310rpx;
-  background: url("@/static/img/heyan/通过.png") no-repeat;
+  background: url("@/static/img/heyan/tg.png") no-repeat;
   background-size: 100% 100%;
   .label {
     color: #24c065;

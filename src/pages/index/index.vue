@@ -75,7 +75,7 @@ export default {
 
 <style scoped lang="less">
 .content {
-  background: url("@/static/img/shouye/背景.png") no-repeat;
+  background: url("@/static/img/shouye/bj.png") no-repeat;
   background-size: 100% 100%;
 }
 
@@ -91,18 +91,18 @@ export default {
   margin-right: 6rpx;
 }
 .search {
-  background: url("@/static/img/shouye/查询.png") no-repeat;
+  background: url("@/static/img/shouye/cx.png") no-repeat;
   background-size: 100% 100%;
 }
 .info {
-  background: url("@/static/img/shouye/信息登记.png") no-repeat;
+  background: url("@/static/img/shouye/xxdj.png") no-repeat;
   background-size: 100% 100%;
   padding-bottom: 12rpx;
   box-sizing: border-box;
 }
 .login {
   // margin-top: 12rpx;
-  background: url("@/static/img/shouye/登录.png") no-repeat;
+  background: url("@/static/img/shouye/dl.png") no-repeat;
   background-size: 100% 100%;
 }
 .info-label,

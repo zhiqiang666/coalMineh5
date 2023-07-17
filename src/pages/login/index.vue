@@ -14,7 +14,7 @@
       </div>
       <div class="login-password flex">
         <div class="icon-container flex">
-          <img src="@/static/img/denglu/密码.png" alt="" />
+          <img src="@/static/img/denglu/mm.png" alt="" />
           <span>密码</span>
         </div>
         <div class="login-input">
@@ -63,7 +63,7 @@ export default {
 
 <style scoped lang="less">
 .content {
-  background: url("@/static/img/denglu/背景.png") no-repeat;
+  background: url("@/static/img/denglu/bj.png") no-repeat;
   background-size: 100% 100%;
   .logo {
     width: 170rpx;
