@@ -1,6 +1,6 @@
 <template>
   <div class="content">
-    <img src="@/static/img/注意事项/头图.png" class="upload-title-photo" alt="" />
+    <img src="@/static/img/zhuyishixiang/头图.png" class="upload-title-photo" alt="" />
     <div class="container">
       <!-- <div class="warning-title">注意事项</div>
       <div class="warning-read">填写前请仔细阅读注意事项</div> -->
@@ -38,7 +38,7 @@ export default {
 
 <style scoped lang="less">
 // .content {
-//   background: url("@/static/img/注意事项/头图.png") no-repeat;
+//   background: url("@/static/img/zhuyishixiang/头图.png") no-repeat;
 //   background-size: 100%;
 // }
 .container {
@@ -57,7 +57,7 @@ export default {
     display: inline-block;
     color: white;
     margin-left: 20rpx;
-    background: url("@/static/img/注意事项/样式.png") no-repeat;
+    background: url("@/static/img/zhuyishixiang/样式.png") no-repeat;
     background-size: 100% 100%;
     font-size: 24rpx;
     padding: 8rpx 16rpx;
@@ -67,14 +67,14 @@ export default {
     margin-top: -80rpx;
     width: 100%;
     height: 170rpx;
-    background: url("@/static/img/注意事项/流程1.png") no-repeat;
+    background: url("@/static/img/zhuyishixiang/流程1.png") no-repeat;
     background-size: 100% 100%;
   }
   .warning-info {
     margin-top: -10rpx;
     width: 100%;
     height: 500rpx;
-    background: url("@/static/img/注意事项/底块.png") no-repeat;
+    background: url("@/static/img/zhuyishixiang/底块.png") no-repeat;
     background-size: 100% 100%;
     padding: 20rpx;
   }

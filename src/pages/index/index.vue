@@ -1,7 +1,7 @@
 <template>
   <view class="content">
     <img
-      src="@/static/img/首页/logo.png"
+      src="@/static/img/shouye/logo.png"
       style="
         width: 200rpx;
         height: 200rpx;
@@ -75,7 +75,7 @@ export default {
 
 <style scoped lang="less">
 .content {
-  background: url("@/static/img/首页/背景.png") no-repeat;
+  background: url("@/static/img/shouye/背景.png") no-repeat;
   background-size: 100% 100%;
 }
 
@@ -91,18 +91,18 @@ export default {
   margin-right: 6rpx;
 }
 .search {
-  background: url("@/static/img/首页/查询.png") no-repeat;
+  background: url("@/static/img/shouye/查询.png") no-repeat;
   background-size: 100% 100%;
 }
 .info {
-  background: url("@/static/img/首页/信息登记.png") no-repeat;
+  background: url("@/static/img/shouye/信息登记.png") no-repeat;
   background-size: 100% 100%;
   padding-bottom: 12rpx;
   box-sizing: border-box;
 }
 .login {
   // margin-top: 12rpx;
-  background: url("@/static/img/首页/登录.png") no-repeat;
+  background: url("@/static/img/shouye/登录.png") no-repeat;
   background-size: 100% 100%;
 }
 .info-label,

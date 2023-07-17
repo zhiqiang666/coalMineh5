@@ -1,11 +1,11 @@
 <template>
   <div class="content">
-    <img class="logo" src="@/static/img/登录/logo.png" alt="" />
+    <img class="logo" src="@/static/img/denglu/logo.png" alt="" />
     <div class="logo-title">陕煤矿业</div>
     <div class="login-container">
       <div class="login-user flex ">
         <div class="icon-container">
-          <img src="@/static/img/登录/icon.png" alt="" />
+          <img src="@/static/img/denglu/icon.png" alt="" />
           <span>身份证号</span>
         </div>
         <div class="login-input">
@@ -47,7 +47,7 @@ export default {
 
 <style scoped lang="less">
 .content {
-  background: url("@/static/img/登录/背景.png") no-repeat;
+  background: url("@/static/img/denglu/背景.png") no-repeat;
   background-size: 100% 100%;
   .logo {
     width: 170rpx;
