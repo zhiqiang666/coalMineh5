@@ -139,7 +139,7 @@ export default {
 }
 .verification-info {
   height: 316rpx;
-  background: url("@/static/img/shenhejieguo/卡片背景.png") no-repeat;
+  background: url("@/static/img/shenhejieguo/kpbj.png") no-repeat;
   background-size: 100% 100%;
   font-size: 24rpx;
   img {
